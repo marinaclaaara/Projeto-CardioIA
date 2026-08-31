@@ -1,0 +1,16 @@
+TEXTO 1 — SAÚDE DO CORAÇÃO E PREVENÇÃO DE DOENÇAS CARDIOVASCULARES
+
+Fonte: Biblioteca Virtual em Saúde do Ministério da Saúde (BVS-MS)
+Título da fonte: Saúde do coração
+URL: https://bvsms.saude.gov.br/saude-do-coracao/
+
+As doenças cardiovasculares podem ser prevenidas ou ter seus riscos reduzidos por meio de hábitos de vida saudáveis. Entre as principais medidas estão evitar o tabagismo, controlar a pressão arterial e o colesterol, manter o peso adequado, praticar exercícios físicos regularmente, escolher uma alimentação equilibrada, controlar o diabetes e reduzir o estresse.
+
+A prática de atividade física pode fazer parte da rotina de maneira simples, como caminhar em trajetos curtos, usar escadas e aumentar gradualmente o tempo dedicado ao movimento. Pessoas que já apresentam problemas cardíacos ou doenças graves devem procurar orientação profissional antes de realizar exercícios, principalmente se apresentarem dor no peito, tontura ou náusea durante a atividade.
+
+A prevenção das doenças cardiovasculares depende também do acompanhamento periódico da saúde. O controle dos fatores de risco é importante porque alterações como hipertensão, colesterol elevado, diabetes, obesidade, sedentarismo e tabagismo aumentam a possibilidade de problemas cardíacos.
+
+O Ministério da Saúde ressalta que as informações educativas não substituem avaliação profissional. Diagnóstico e indicação de tratamento devem ser realizados por profissionais habilitados.
+
+Extração de Entidades Nomeadas (NER): Algoritmos de NLP identificam e estruturam entidades clínicas descritas no texto, catalogando fatores de risco modificáveis (como hipertensão, colesterol elevado, diabetes, obesidade e tabagismo) e hábitos preventivos recomendados (como alimentação equilibrada e exercícios físicos).
+Classificação de Tópicos e Intenção: O modelo categoriza o documento no domínio de "Medicina Preventiva e Estilo de Vida", mapeando recomendações do cotidiano, como o incentivo ao uso de escadas e caminhadas em trajetos curtos.  Mapeamento de Regras de Segurança: Algoritmos de extração identificam gatilhos de alerta preventivo no texto, destacando que sinais como dor no peito, tontura ou náusea exigem interrupção da atividade e avaliação médica.
