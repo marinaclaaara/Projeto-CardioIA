@@ -57,21 +57,21 @@ Citação: Janosi, A., Steinbrunn, W., Pfisterer, M., & Detrano, R. (1989). *Hea
 
 ---
 
-Parte 2 — Dados Textuais (NLP) — REAIS
+## Parte 2 — Dados Textuais (NLP) — REAIS
 
-Arquivos: Salvos na subpasta docs/ do repositório (caderno_atencao_basica.txt e boletim_saude_coracao.txt).
+**Arquivos:** Salvos na subpasta `docs/` do repositório (`texto1_saude_do_coracao.txt` e `texto2_infarto.txt`).
 
-Origem:
+**Origem:** 
+1. *Saúde do Coração* — Biblioteca Virtual em Saúde do Ministério da Saúde (BVS-MS).  
+   Fonte: https://bvsms.saude.gov.br/saude-do-coracao/
+2. *Ataque Cardíaco (Infarto)* — Biblioteca Virtual em Saúde do Ministério da Saúde (BVS-MS).  
+   Fonte: https://bvsms.saude.gov.br/ataque-cardiaco-infarto/
 
-Prevenção Clínica de Doença Cardiovascular — Caderno de Atenção Básica nº 14, Ministério da Saúde/BVS.
+**Aplicações de NLP e Justificativa Clínica:**
+* **Extração de Entidades Nomeadas (NER):** Identificação e extração automática de sintomas clínicos (como dor no peito, falta de ar, suor frio e palidez) e fatores de risco (como hipertensão, colesterol elevado e tabagismo) mencionados nos textos da BVS-MS.
+* **Classificação de Tópicos e Triagem Inteligente:** Agrupamento de conteúdos textuais entre "Prevenção/Hábitos de Vida" e "Emergência/Infarto Agudo", permitindo alimentar assistentes virtuais do CardioIA para orientar pacientes sobre quando buscar atendimento imediato.
 
-Saúde do Coração — Boletim Temático nº 9, set/2022, Ministério da Saúde/BVS.
-
-Aplicações de NLP e Justificativa Clínica:
-
-Extração de Entidades Nomeadas (NER): Mapeamento automático de sintomas, fatores de risco e diretrizes de tratamento descritos nos documentos do SUS.
-
-Classificação de Tópicos e Triagem: Algoritmos de NLP podem processar esses guias clínicos para alimentar chatbots de orientação e auxiliar profissionais na busca rápida por protocolos oficiais de atendimento cardiovascular.
+---
 ---
 
 ## Parte 3 — Dados Visuais (Visão Computacional) — REAIS
