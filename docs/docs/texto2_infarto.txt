@@ -1,0 +1,22 @@
+TEXTO 2 — ATAQUE CARDÍACO (INFARTO): SINTOMAS, RISCOS E TRATAMENTO
+
+Fonte: Biblioteca Virtual em Saúde do Ministério da Saúde (BVS-MS)
+Título da fonte: Ataque cardíaco (infarto)
+URL: https://bvsms.saude.gov.br/ataque-cardiaco-infarto/
+
+O infarto do miocárdio ocorre quando uma região do músculo do coração deixa de receber sangue adequadamente, geralmente devido à obstrução de uma artéria coronária. A aterosclerose, caracterizada pelo acúmulo de placas de gordura nas artérias, é uma das principais causas.
+
+O sintoma mais conhecido é dor ou desconforto no peito, que pode apresentar sensação de pressão ou aperto e irradiar para outras regiões, como braço, costas ou rosto. Também podem ocorrer falta de ar, suor frio, palidez e sensação de desmaio. Em idosos e pessoas com diabetes, os sinais podem ser menos típicos.
+
+Entre os principais fatores de risco estão tabagismo, colesterol elevado, hipertensão, obesidade, diabetes e estresse. A prevenção envolve atividade física regular, alimentação adequada, abandono do cigarro e controle das condições que favorecem a aterosclerose.
+
+O infarto é uma emergência médica. Quando houver suspeita, é fundamental procurar atendimento de saúde imediatamente, pois o reconhecimento rápido dos sintomas e o tratamento precoce podem reduzir o risco de complicações e morte.
+
+Extração de Sintomas Clínicos (NER Clínico): O processamento de linguagem natural isola e categoriza os sintomas característicos descritos — como dor ou pressão no peito irradiando para braço, costas ou rosto, além de falta de ar, suor frio e palidez — convertendo texto livre em variáveis estruturadas.
+Análise de Gravidade e Urgência: Através da classificação textual, o sistema atribui o rótulo de "Emergência Médica / Alta Gravidade", reconhecendo termos estratégicos relacionados à necessidade de atendimento de saúde imediato.  
+Identificação de Nuances Epidemiológicas: O algoritmo detecta ressalvas clínicas descritas no artigo, como a manifestação de sintomas menos típicos de infarto em grupos específicos (idosos e pessoas com diabetes).
+Exploração por Algoritmos de NLP:Extração de Sintomas Clínicos (NER Clínico): Converte o relato textual livre em variáveis médicas estruturadas, identificando sintomas característicos (dor no peito, irradiação para braço/rosto, falta de ar, suor frio).
+Classificação de Urgência e Nível de Risco: Rotula o conteúdo sob a categoria de "Emergência / Alta Gravidade", reconhecendo termos que exigem intervenção médica imediata.  
+Mapeamento de Nuances Clínicas: Identifica ressalvas epidemiológicas, reconhecendo que idosos e pessoas com diabetes podem apresentar quadros clínicos com sintomas menos típicos.
+Relevância Específica para o CardioIA (Triagem e Emergência):Triagem Automatizada de Emergência: Capacita o módulo de triagem do CardioIA a interpretar o texto digitado por um paciente em crise e acionar alertas vermelhos autônomos para encaminhamento hospitalar rápido. 
+Estruturação de Prontuários e Apoio Diagnóstico: Transforma anotações médicas descritivas de prontuários em dados padronizados, alimentando os modelos preditivos da plataforma para estimar a gravidade do evento coronariano. 
