@@ -57,16 +57,21 @@ Citação: Janosi, A., Steinbrunn, W., Pfisterer, M., & Detrano, R. (1989). *Hea
 
 ---
 
-## Parte 2 — Dados Textuais (NLP) — AÇÃO PENDENTE (não posso baixar por você)
+Parte 2 — Dados Textuais (NLP) — REAIS
 
-Duas fontes **reais e oficiais**, com link verificado e funcionando:
+Arquivos: Salvos na subpasta docs/ do repositório (caderno_atencao_basica.txt e boletim_saude_coracao.txt).
 
-1. *Prevenção Clínica de Doença Cardiovascular, Cerebrovascular e Renal* — Caderno de Atenção Básica nº 14, Ministério da Saúde/BVS.
-   https://bvsms.saude.gov.br/bvs/publicacoes/abcad14.pdf
-2. *Saúde do Coração* — Boletim Temático nº 9, set/2022, Ministério da Saúde/BVS.
-   https://bvsms.saude.gov.br/bvs/boletim_tematico/saude_coracao_setembro_2022.pdf
+Origem:
 
+Prevenção Clínica de Doença Cardiovascular — Caderno de Atenção Básica nº 14, Ministério da Saúde/BVS.
 
+Saúde do Coração — Boletim Temático nº 9, set/2022, Ministério da Saúde/BVS.
+
+Aplicações de NLP e Justificativa Clínica:
+
+Extração de Entidades Nomeadas (NER): Mapeamento automático de sintomas, fatores de risco e diretrizes de tratamento descritos nos documentos do SUS.
+
+Classificação de Tópicos e Triagem: Algoritmos de NLP podem processar esses guias clínicos para alimentar chatbots de orientação e auxiliar profissionais na busca rápida por protocolos oficiais de atendimento cardiovascular.
 ---
 
 ## Parte 3 — Dados Visuais (Visão Computacional) — REAIS
