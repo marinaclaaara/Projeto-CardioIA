@@ -66,13 +66,12 @@ Duas fontes **reais e oficiais**, com link verificado e funcionando:
 2. *Saúde do Coração* — Boletim Temático nº 9, set/2022, Ministério da Saúde/BVS.
    https://bvsms.saude.gov.br/bvs/boletim_tematico/saude_coracao_setembro_2022.pdf
 
-**Por que os `.txt` não estão prontos na pasta `docs/`:** por política de direitos autorais, não posso copiar o conteúdo de documentos de terceiros (mesmo públicos) diretamente nos arquivos que gero. Isso é a única parte da atividade que ainda depende de uma ação manual sua: baixar os dois PDFs acima e salvar o texto como `.txt` (passo a passo em `docs/LEIA-ME_textos.txt`). É rápido — um clique + copiar/colar ou `pdftotext`.
 
 ---
 
 ## Parte 3 — Dados Visuais (Visão Computacional) — REAIS
 
-**Arquivo:** `assets/imagens_ecg_reais.zip` — **140 imagens reais** de exames de ECG de 12 derivações, de pacientes de verdade (anonimizados).
+**Arquivo:** `assets/imagens_ecg_reais.zip` — **140 imagens reais** de exames de ECG de 12 derivações, de pacientes de verdade (anonimizados). 
 
 **Origem:** *ECG Images dataset of Cardiac and COVID-19 Patients*, Khan, A.H.; Hussain, M.; Malik, M.K. (2021). *Data in Brief*, v.34, DOI: 10.1016/j.dib.2021.106762. Dados coletados com o dispositivo EDAN SERIES-3 em três hospitais no Paquistão (Ch. Pervaiz Elahi Institute of Cardiology, Nishtar Hospital, Punjab Institute of Cardiology), revisados por profissionais médicos.
 Repositório de origem: https://data.mendeley.com/datasets/gwbz3fsgp8/1
@@ -88,14 +87,6 @@ Amostra de 140 imagens (de ~928 disponíveis), balanceada em 4 categorias reais 
 | Batimento cardíaco anormal | 233 | 35 |
 
 O rótulo de cada imagem e o nome do arquivo original na base estão em `metadata_ecg_real.csv`.
-
----
-
-## Verificação de autenticidade dos dados (feita nesta entrega)
-
-- **Dataset numérico:** a primeira versão que preparei usava um espelho popular do dataset (muito replicado em tutoriais no Kaggle/GitHub) que **contém um erro conhecido e documentado**: os códigos de `cp`, `restecg`, `slope`, `thal` estavam remapeados incorretamente e, pior, o rótulo de diagnóstico (`target`) estava **invertido** em pelo menos parte das linhas em relação ao arquivo original da UCI. Percebi isso comparando manualmente, linha a linha, contra o arquivo bruto oficial (`processed.cleveland.data`), que também bate exatamente com os metadados publicados pela UCI (303 instâncias, 6 valores ausentes marcados como `?`, distribuídos nas colunas `ca` e `thal`). **Corrigi e troquei pelo arquivo derivado diretamente do dado bruto oficial** — é o `dataset_cardiaco_real_uci.csv` desta entrega.
-- **Dataset de imagens:** conferi a contagem de imagens por categoria (Normal=284, MI=239, Histórico de MI=172, Anormal=233) contra os números publicados no artigo científico original (Normal=284, MI=240, Histórico de MI=172, Anormal=233) — bate quase exatamente (diferença de 1 imagem em MI, provavelmente um arquivo duplicado/corrompido removido por quem hospedou a cópia). Isso confirma que as imagens são as mesmas do estudo publicado, não geradas artificialmente.
-- **Textos:** ainda não verificáveis por mim porque dependem do seu download manual (ver Parte 2).
 
 ## Governança de Dados e Vieses (reflexão)
 
